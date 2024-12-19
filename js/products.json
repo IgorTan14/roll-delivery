@@ -1,0 +1,63 @@
+[
+	{
+		"id": 1,
+		"title": "Філадельфія хіт рол",
+		"itemsInBox": 6,
+		"weight": 180,
+		"price": 170,
+		"imgSrc": "philadelphia.jpg",
+		"category": "roles"
+	},
+	{
+		"id": 2,
+		"title": "Каліфорнія темпура",
+		"itemsInBox": 6,
+		"weight": 205,
+		"price": 180,
+		"imgSrc": "california-tempura.jpg",
+		"category": "roles"
+	},
+	{
+		"id": 3,
+		"title": "Запечений рол «Каліфорнія»",
+		"itemsInBox": 6,
+		"weight": 182,
+		"price": 190,
+		"imgSrc": "zapech-california.jpg",
+		"category": "roles"
+	},
+	{
+		"id": 4,
+		"title": "Філадельфія",
+		"itemsInBox": 6,
+		"weight": 230,
+		"price": 200,
+		"imgSrc": "philadelphia.jpg",
+		"category": "roles"
+	},
+
+
+
+
+
+
+
+	{
+		"id": 5,
+		"title": "Суші «Нігірі»",
+		"itemsInBox": 8,
+		"weight": 150,
+		"price": 130,
+		"imgSrc": "sushi.png",
+		"category": "sushi"
+	},
+	{
+		"id": 6,
+		"title": "Поке",
+		"itemsInBox": 1,
+		"weight": 330,
+		"price": 160,
+		"imgSrc": "poke.png",
+		"category": "poke"
+	}
+]

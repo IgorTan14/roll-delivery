@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Магазин ролів</title>
+	<link rel="stylesheet" href="libs/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+</head>
+
+<body>
+	
+
+	<header class="header">
+		<nav class="header-page">
+
+			<div class="header-container header-page__container">
+				<div class="header-page__start">
+					<a href="index.html" class="header__logo">
+						<img class="logo" src="img/logo/logo.svg" width="46" alt="Суши и пицца">
+					</a>
+				</div>
+				<div class="header-page__end">
+				  <nav class="header-page__nav">
+					<ul class="header-page__ul">
+					  <li class="header-page__li">
+						<a class="header-page__link" href="#main" data-scroll-to="section-catalog">
+						  <span class="header-page__text">Кухня</span>
+						</a>
+					  </li>
+					  <li class="header-page__li">
+						<a class="header-page__link" href="#about" data-scroll-to="section-about">
+						  <span class="header-page__text">О нас</span>
+						</a>
+					  </li>
+					  <li class="header-page__li">
+						<a class="header-page__link" href="#contacts" data-scroll-to="section-contacts">
+						  <span class="header-page__text">Контакти</span>
+						</a>
+					  </li>
+					</ul>
+				  </nav>
+
+				  <div class="phone">
+					<a class="phone__item header-page__phone" href="tel:+38063123456">+38 (063)-12-34-567</a>
+				  </div>
+
+				  <!-- <div class="header-page__hamburger">
+					<button class="btn-menu" type="button" data-popup="popup-menu">
+					  <span class="btn-menu__box">
+						<span class="btn-menu__inner"></span>
+					  </span>
+					</button>
+				  </div> -->
+
+
+
+				  
+			</div>
+
+
+
+				</div>
+			  </div>
+		</nav>
+
+
+
+
+
+		<div class="container text-center">
+			<img class="logo" src="img/logo/logo.svg" width="92" alt="Суши и пицца">
+			<div class="site-title title">Доставка ролів</div>
+			<p class="subtitle">Щойно з кухні</p>
+
+			<a href="#main" class="header__btn">Обрати</a>
+		</div>
+	</header>
+
+	<main class="main" id="main">
+	<div class="container mb-5" data-ref="row">
+
+		<h3 class="catalog-header">Меню цього тижня</h3>
+
+		<ul class="catalog-menu">
+			<li class="catalog-menu-item">
+				<button class="btn" data-filter="all">Все</button>
+			</li>
+			<li class="catalog-menu-item">
+				<button class="btn" data-filter=".sushi">Суші</button>
+			</li>
+			<li class="catalog-menu-item">
+				<button class="btn" data-filter=".roles">Роли</button>
+			</li>
+			<li class="catalog-menu-item">
+				<button class="btn" data-filter=".poke">Поке</button>
+			</li>
+		</ul> 
+
+
+		<div class="row" data-ref="row">
+			<!-- <h3 class="catalog-header">Пропозиція цього тижня</h3>
+
+		<ul class="catalog-menu">
+			<li class="catalog-menu-item">
+				<button class="btn" data-filter="all">Все</button>
+			</li>
+			<li class="catalog-menu-item">
+				<button class="btn" data-filter=".sushi">Суші</button>
+			</li>
+			<li class="catalog-menu-item">
+				<button class="btn" data-filter=".roles">Роли</button>
+			</li>
+			<li class="catalog-menu-item">
+				<button class="btn" data-filter=".poke">Поке</button>
+			</li>
+		</ul> -->
+
+			<!-- Товары -->
+			<div class="col-md-8">
+				<div class="row" id="products-container">
+
+					<!-- <div class="gallery__inner">
+						<div class="gallery__item mix roles">
+							<img src="images/gallery-1.jpeg" alt="gallery">
+						</div>
+						<div class="gallery__item mix sushiritto">
+							<img src="images/gallery-2.jpeg" alt="gallery">
+						</div>
+					</div> -->
+
+
+				</div>
+			</div>
+
+			<!-- Корзина -->
+			<div class="col-md-4">
+
+				<!-- Корзина -->
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Ваше замовлення</h4>
+
+							<div data-cart-empty class="alert alert-secondary" role="alert">
+								Кошик порожній
+						</div>
+
+						<!-- cart-wrapper -->
+						<div class="cart-wrapper">
+
+						</div>
+						<!-- // cart-wrapper -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+						<!-- Стоимость заказа -->
+						<!-- <div class="cart-total">
+							<p data-cart-delivery class="none">
+								<span class="h5">Доставка:</span>
+								<span class="delivery-cost">100 ₴</span><br>
+								<span class="small">Бесплатно при заказе от 600 ₴</span>
+							</p>
+							<p><span class="h5">Всього:</span>
+								<span class="total-price">0</span>
+								<span class="grn">₴</span></p>
+						</div> -->
+						<div id="cartTotal" class="cart-total none">
+							<p>
+								<span class="h5">Доставка:</span>
+								<span id="deliveryPriceContainer" class="delivery-cost ">
+									<p  id="delivery-baner" style="font-size: 14px;">(при сумі 600 гривень доставка безкоштовна)</p>
+								</span>
+							</p>
+							<p>
+								<span class="h5">Всього:</span> 
+								<span id="cartTotalPrice" class="total-price"></span> 
+								<span class="grn">₴</span>
+							</p>
+						</div>
+						<!-- // Стоимость заказа -->
+
+					</div>
+
+					<!-- Оформить заказ -->
+					<div id="order-form" class="card-body border-top none">
+						<h5 class="card-title">Оформити замовлення</h4>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Ваш номер телефона">
+							</div>
+							<button type="submit" class="btn btn-primary">Замовити</button>
+						</form>
+					</div>
+					<!-- // Оформить заказ -->
+
+				</div>
+				<!-- // Корзина -->
+
+			</div>
+
+		</div>
+	</div>
+
+	 <section class="about" id="about">
+		<div class="about__inner">
+			<div class="about__img">
+				<img src="./img/about.jpg" alt="about" class="about__img">
+			</div>
+			
+		<div class="about__content">
+			<h3 class="about__title">О нас</h3>
+			<p class="about__text">Оперативно доставимо вам страви японської кухні. Ми готуємо із самих свіжих продуктів. Кожного дня ми купуємо свіжі овочі, гриби та м'ясо</p>
+		</div>
+	</div>
+	</section>
+
+
+	<section class="contacts" id="contacts">
+
+		<div class="container">
+		  <header class="section__header">
+			<h2 class="page-title sectoin-contacts__title">Контакти</h2>
+		  </header>
+		  <div class="contacts__inner">
+			<!-- <div class="contacts-decore">
+				<img src="img/dec.png" alt="decor">
+			</div> -->
+			<div class="contacts__start">
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10140.958689859148!2d30.20408420005415!3d50.54831275433964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472b31b87a924b7d%3A0xe782af01104b968c!2z0J3QvtCy0L7QtSDRiC4sINCR0YPRh9CwLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgMDgyOTI!5e0!3m2!1sru!2sro!4v1734361752896!5m2!1sru!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			  </div>
+			</div>
+			<div class="contacts__end">
+			  <div class="contacts__item">
+				<h3 class="contacts__title">Адреса</h3>
+				<p class="contacts__text">місто Буча, вулиця Нове шосе 120</p>
+			  </div>
+			  <div class="contacts__item">
+				<h3 class="contacts__title">Телефон</h3>
+				<p class="contacts__text">
+				  <a class="contacts__phone" href="tel:+38063123456">+38 (063)-12-34-567</a>
+				</p>
+			  </div>
+			  <div class="contacts__item">
+				<h3 class="contacts__title">Соціальні мережі</h3>
+				<ul class="socials">
+					 <li class="socials__item">
+					<a href="#" class="socials__link">
+						<img src="img/inst.png" alt="inst">
+					</a>
+					</li>
+	
+				  <!-- <li class="socials__item">
+					<a href="#" class="socials__link" target="_blank">
+					  <svg class="socials__icon socials__icon--fb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.2 112.2" width="35" height="35">
+						<g>
+						  <circle cx="56.1" cy="56.1" r="56.1" />
+						  <path class="socials__logo" d="M70.2,58.3h-10V95H45V58.3H37.8V45.4H45V37.1c0-6,2.8-15.3,15.3-15.3H71.5V34.3H63.3c-1.3,0-3.2.7-3.2,3.5v7.6H71.4Z" />
+						</g>
+					  </svg>
+					</a>
+				  </li> -->
+				 
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+
+</main>
+
+<footer class="footer">
+	<div class="container">
+		<p>© Copyright 2024 RollDelivery - All right reserved</p>
+	</div>
+</footer>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/mixitup.js"></script>
+	<script src="js/mixitup.min.js"></script>
+
+	<!-- Продукты -->
+	<script src="./js/products/model.js" type="module"></script>
+	<script src="./js/products/view.js" type="module"></script>
+
+	<!-- Корзина -->
+	<script src="./js/cart/model.js" type="module"></script>
+	<script src="./js/cart/view.js" type="module"></script>
+
+	<!-- Основной -->
+	<script src="./js/controller.js" type="module"></script>
+</body>
+</html>
